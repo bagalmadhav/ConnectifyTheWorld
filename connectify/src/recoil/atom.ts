@@ -26,5 +26,5 @@ export const apiURL = atom({
 
 export const wsURL = atom({
     key:"ws",
-    default: `wss://${window.location.hostname}`
+    default: "ws://localhost:3000"
 })

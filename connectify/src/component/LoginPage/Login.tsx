@@ -40,7 +40,7 @@ export default function Login() {
             <div className="flex justify-between items-center pl-8 pr-8">
                 <div className="flex items-center h-20 bg-white">
                     <img src={logo} alt="logo" className="w-12" />
-                    <h1 className="text-4xl font-logo text-slate-600">Connectify</h1>
+                    <h1 className="text-4xl font-logo text-slate-600">Connectify The World</h1>
                 </div>
                 <div className="flex items-center gap-3">
                     <div className='text-xl font-logo hidden sm:block'>{currentTime}</div>
@@ -56,9 +56,15 @@ export default function Login() {
             </div>
 
             <div className='flex flex-col sm:flex-row justify-center item-center sm:gap-36 gap-2'>
-                <div className="flex justify-center items-center sm:h-16 bg-white text-slate-600">
-                    <Link to="https://github.com/ShubSi26/connectify" className="text-blue-500">Source Code</Link>
-                </div>
+               <div>
+  <a
+    href="https://github.com/bagalmadhav/connectify"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Source Code
+  </a>
+</div>
                 <div className="flex justify-center items-center sm:h-16 bg-white text-slate-600">
                     <Link to="" className="text-blue-500">View More Projects</Link>
                 </div>
